@@ -8,11 +8,11 @@ This is the choice of Steins;Gate.
 ## Usage
 
 ```
-bash -c "$(wget --no-check-certificate -qO- https://github.com/Aniverse/TrCtrlProToc0l/raw/master/A)"
+bash -c "$(wget --no-check-certificate -qO- https://github.com/alexmjs/TrCtrlProToc0l/blob/master/A)"
 ```
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Aniverse/TrCtrlProToc0l/master/A)
+bash <(curl -s https://raw.githubusercontent.com/alexmjs/TrCtrlProToc0l/master/A)
 ```
 
 ## Features
