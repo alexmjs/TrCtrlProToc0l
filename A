@@ -412,7 +412,7 @@ _delete_kernel
 
 # 启用 mq-deadline
 cat >/etc/udev/rules.d/60-schedulers.rules<<EOF
-ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="mq-deadline"
+ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="cfq"
 EOF
 
 # CPU 高性能模式
